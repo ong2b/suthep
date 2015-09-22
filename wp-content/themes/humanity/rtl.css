@@ -1,0 +1,2105 @@
+/*
+Theme Name: Humanity
+Theme URI: http://wedesignthemes.com/themes/dt-humanity/
+Author: the DesignThemes team
+Author URI: http://themeforest.net/user/designthemes
+Description: Humanity Description Here
+Version: 1444
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: black, green, white, light, dark, two-columns, three-columns, left-sidebar, right-sidebar, fixed-layout, responsive-layout, custom-background, custom-header, custom-menu, editor-style, featured-images, flexible-header, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready, accessibility-ready
+Text Domain: dt_themes
+*/
+/* CSS Document */
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+1.0 - General Styles
+	1.1 - Body
+	1.2 - Font Family
+	1.3 - Headings
+	1.4 - Transition
+	1.5 - Text Elements
+	1.6 - Tables
+	1.7 - Definition Lists
+	1.8 - Forms
+	1.9 - Images 
+	1.10 Widgets
+2.0 - Layout 
+3.0 - Text Shadow Styles
+4.0 - Button Styles
+5.0 - Header Styles
+	5.1 - Header Top Styles
+	5.2 - Header Search Form Styles
+	5.3 - Menu Styles
+6.0 - Main Styles
+7.0 - Breadcrumb Styles
+8.0 - Blog Styles
+9.0 - About Styles
+10.0 - Pagination Styles
+11.0 - Sidebar Styles
+12.0 - Gallery Styles
+13.0 - Contact, Event, Donate Page Styles
+14.0 - Event Carousel Styles
+15.0 - Footer Styles
+16.0 - Style Picker Styles
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+1.0 - General Styles
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+1.1 - Body
+--------------------------------------------------------------*/
+
+body{direction:rtl; unicode-bidi:embed; text-align:right;}
+
+.bx-wrapper, .dt-sc-sorting-container a, .caroufredsel_wrapper, .caroufredsel_wrapper ul, .carousel-arrows a{direction:ltr;}
+
+/*--------------------------------------------------------------
+1.2 - Font Family
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+1.3 - Headings
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+1.4 - Transition
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+1.5 - Text Elements
+--------------------------------------------------------------*/
+
+ul li ul {
+	padding-right:20px;
+	padding-left: 0;
+}
+
+ol {
+	padding-right:20px;
+	padding-left: 0;
+}
+
+pre, code {
+	border-right:3px solid #dfdfdf;
+	border-left: none;
+}
+
+blockquote {
+	padding:25px 50px 25px 25px;
+	clear:right;
+}
+
+blockquote cite {
+	text-align:left;
+}
+
+blockquote.alignright {
+	margin-left:20px;
+	text-align:right;
+	float:right;
+	margin-right: auto;
+}
+
+blockquote.alignleft {
+	margin-right:20px;
+	text-align:right;
+	float:left;
+	margin-left: auto;
+}
+
+/* due to IE <HR> margin bugs I had to made classed and apply them to div to achieve the effect of a <HR> */
+	
+.hr {
+	float:right;
+}
+
+.hr-border {
+	float:right;
+}
+
+.hr.top, .hr-border.top {
+	background-position:left center;
+	text-align:left;
+}
+
+.hr.top a, .hr-border.top a {
+	padding-right:5px;
+	left:-21px;
+	right: auto;
+	padding-left: 0;
+}
+
+.hr-border.top a {
+	left:-23px;
+	right: auto;
+}
+
+.float-left {
+	float:left;
+}
+
+.float-right {
+	float:right;
+}
+
+.post-edit-link {
+	float:left;
+}
+
+.page-link {
+	float:right;
+}
+
+.page-link a {
+	float:right;
+	margin-left:10px;
+	margin-right: auto;
+}
+
+.page-link span {
+	float:right;
+	margin-left:10px;
+	margin-right: auto;
+}
+
+/*--------------------------------------------------------------
+1.6 - Tables
+--------------------------------------------------------------*/
+
+table {
+	-moz-border-right-colors:none;
+	-moz-border-left-colors:none;
+}
+
+/*--------------------------------------------------------------
+1.7 - Definition Lists
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+1.8 - Forms
+--------------------------------------------------------------*/
+
+.quantity input.qty {
+	padding:12px 10px 12px 5px;
+}
+
+/*input::-webkit-outer-spin-button, input::-webkit-inner-spin-button*/
+
+select {
+	padding:15px 15px 14px 50px;
+}
+
+span.select-sort:before {
+	border-right:6px solid transparent;
+	border-left:6px solid transparent;
+	left:20px;
+	right: auto;
+}
+
+span.select-sort:after {
+	border-right:1px solid #e3e3e3;
+	border-left:1px solid #e3e3e3;
+	left:0;
+	right: auto;
+}
+
+.donate-form select {
+	padding:10px 5px 10px 10px;
+}
+
+input[type="submit"], button, input[type="button"], button[type=submit] {
+	float:left;
+}
+
+.selection-box:before {
+	left:17px;
+	border-right:7px solid transparent;
+	border-left:7px solid transparent;
+	right: auto;
+}
+
+.selection-box:after{left:0px; right:auto; border-width:0px 1px 0px 0px;}
+
+/*--------------------------------------------------------------
+1.9 - Images 
+--------------------------------------------------------------*/
+
+.wp-caption {
+	padding:5px 5px 7px 7px;
+}
+
+.main .alignright, img.alignright {
+	float:right;
+	margin-left:20px;
+	margin-right: auto;
+}
+
+.main .alignleft, img.alignleft {
+	float:left;
+	margin-right:20px;
+	margin-left: auto;
+}
+
+.aligncenter, img.aligncenter {
+	margin-right:auto;
+	margin-left:auto;
+}
+
+.shadow {
+	float:right;
+}
+
+/*--------------------------------------------------------------
+1.10 Widgets
+--------------------------------------------------------------*/
+	
+.widget {
+	float:right;
+}
+
+.widget h3.widgettitle {
+	float:right;
+}
+
+/*.widget h3.widgettitle span {
+	right:0px;
+	left: auto;
+}
+
+*/
+
+.widget ul {
+	float:right;
+}
+
+.widget ul li {
+	float:right;
+}
+
+.widget ul li {
+	padding:6px 12px 6px 0px;
+}
+
+.widget ul li:before {
+	right:0px;
+	left: auto;
+}
+
+.widget_categories ul li, .widget.widget_archive ul li {
+	padding:0px 18px 0px 0px;
+}
+
+.widget_categories ul li a {
+	padding:0px 5px 0px 45px;
+}
+
+.widget_categories ul li a, .widget.widget_archive ul li a {
+	padding:10px 15px 10px 45px;
+}
+
+.widget_categories ul li a span, .widget.widget_archive ul li a span {
+	left:0px;
+	right: auto;
+}
+
+.widget_categories ul li a:before, .widget_archive ul li a:before {
+	right:0px;
+	left: auto;
+}
+
+.widget .recent-posts-widget ul li .entry-meta {
+	float:right;
+}
+
+.widget .recent-posts-widget ul li .entry-details {
+	padding-right:65px;
+	padding-left: 0;
+}
+
+.widget .recent-posts-widget ul li .entry-body {
+	float:right;
+}
+
+.widget .recent-posts-widget ul li .entry-details .entry-metadata p a span {
+	margin-left:5px;
+	margin-right: auto;
+}
+
+.widget.widget_popular_entries .recent-course-widget ul li img {
+	float:right;
+	margin:0px 0px 0px 15px;
+}
+
+.widget .mailchimp-form {
+	float:right;
+}
+
+.widget ul.tweet_list li .tweet-thumb {
+	float:right;
+	margin:5px 0px 10px 10px;
+}
+
+.widget.widget_recent_comments ul li, .widget.widget_ratings-widget ul li, .widget.widget_sensei_lesson_component ul li, .widget.widget_meta ul li {
+	padding-right:20px;
+	padding-left: 0;
+}
+
+.widget.widget_archive ul li {
+	padding-right:5px;
+	padding-left: 0;
+}
+
+.widget.widget_text .textwidget .dt-sc-contact-info .icon {
+	margin:5px 0px 0px 17px;
+}
+
+.widget.widget_text .textwidget .dt-sc-contact-info .icon i {
+	right:0px;
+	left: auto;
+}
+
+.widget .search-form input[type="text"], .widget .search-form input[type="search"], .widget .mailchimp-form input[type="email"] {
+	float:right;
+}
+
+.widget .tagcloud a {
+	float:right;
+	margin:0px 0px 10px 10px;
+}
+
+#wp-calendar caption {
+	margin: 0 0px -1px 0;
+}
+
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus {
+	left:2px;
+	right: auto;
+}
+
+.ui-datepicker .ui-datepicker-prev {
+	right:2px;
+	left:2px;
+}
+
+.widget.flickrbox .flickr-widget div {
+	float:right;
+	margin:0px 0px 7px 7px;
+}
+
+.widget .recent-portfolio-widget li .thumb {
+	float:right;
+	margin:0px 0px 10px 15px;
+}
+
+/* Safari only override */
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+
+/* Safari only override */
+
+}
+
+.widget.widget_search .search_form {
+	float:right;
+}
+
+.widget.widget_search input[type="submit"] {
+	left:0px;
+	right: auto;
+}
+
+.secondary-sidebar .widget {
+	float:right;
+}
+
+.widget #searchform input[type="text"], #primary #searchform input[type="text"] {
+	padding-left:60px;
+	padding-right: 0;
+}
+
+/*--------------------------------------------------------------
+2.0 - Layout 
+--------------------------------------------------------------*/
+
+.wrapper {
+	float:right;
+}
+
+.inner-wrapper {
+	float:right;
+}
+
+/*--------------------------------------------------------------
+3.0 - Text Shadow Styles
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+4.0 - Button Styles
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+5.0 - Header Styles
+--------------------------------------------------------------*/
+
+header {
+	float:right;
+}
+
+/*--------------------------------------------------------------
+5.1 - Header Top Styles
+--------------------------------------------------------------*/
+
+header .header_top {
+	float:right;
+}
+
+header .header_top .alignright p{float:right; margin:12px 0px 0px 25px;}
+
+.logo {
+	float:right;
+}
+
+header .header_top .alignleft a {
+	float:right;
+	margin:6px 0px 0px 15px;
+}
+
+/*--------------------------------------------------------------
+5.2 - Header Search Form Styles
+--------------------------------------------------------------*/
+
+header .search_form {
+	float:left;
+}
+
+header .search_form input[type="text"] {
+	float:right;
+}
+
+header .search_form input[type="submit"] {
+	float:left;
+}
+
+/*--------------------------------------------------------------
+5.3 - Menu Styles
+--------------------------------------------------------------*/
+
+#menu-container {
+	float:right;
+}
+
+#menu-container:after {
+	float:right;
+	right:0px;
+	left: auto;
+}
+
+#main-menu > ul.menu > li {
+	float:right;
+}
+
+#main-menu > ul.menu > li:after {
+	float:right;
+	left:0px;
+	border-width:0px 0px 0px 1px;
+	border-style:solid;
+	right: auto;
+	border-right: none;
+}
+
+/**Simple Drop Down Menu**/
+
+#main-menu ul li.menu-item-simple-parent ul {
+	right:0px;
+	float:right;
+	left: auto;
+}
+
+#main-menu ul li.menu-item-simple-parent ul li ul {
+	right:218px;
+	left: auto;
+}
+
+#main-menu ul li.menu-item-simple-parent:last-child ul {
+	left:0px;
+	right:inherit;
+}
+
+#main-menu ul li.menu-item-simple-parent:last-child ul li ul {
+	left:218px;
+	right:inherit;
+}
+
+#main-menu ul > li > ul li.menu-item-has-children > a:after {
+	left:10px;
+	right: auto;
+}
+
+/**Mega Menu**/
+
+.megamenu-child-container > ul.sub-menu > li {
+	float:right;
+}
+
+.megamenu-child-container ul.sub-menu > li > ul li a {
+	padding:0px 12px 10px 0px;
+}
+
+.megamenu-child-container ul.sub-menu > li > ul li a:before {
+	right:0px;
+	left: auto;
+}
+
+.megamenu-child-container ul.sub-menu > li > ul > li > ul {
+	padding-right:20px;
+	padding-left: 0;
+}
+
+/**mean menu**/
+
+.dt-menu-toggle-icon {
+	float:left;
+	text-align:right;
+}
+
+.dt-menu-expand {
+	left:0px;
+	right: auto;
+}
+
+.dt-menu-toggle-icon:before, .dt-menu-toggle-icon:after {
+	right:0px;
+	left: auto;
+}
+
+/*--------------------------------------------------------------
+6.0 - Main Styles
+--------------------------------------------------------------*/
+
+.main {
+	float:right;
+}
+
+#primary {
+	float:right;
+}
+
+#secondary, #secondary-left, #secondary-right {
+	float:right;
+}
+
+#secondary-left.secondary-has-left-sidebar {
+	float:left;
+}
+
+#secondary-right.secondary-has-right-sidebar {
+	float:right;
+}
+
+.full-width-background {
+	float:right;
+}
+
+/*--------------------------------------------------------------
+7.0 - Breadcrumb Styles
+--------------------------------------------------------------*/
+
+.breadcrumb:before {
+	right:0px;
+	float:right;
+	left: auto;
+}
+
+.breadcrumb:after {
+	right:0px;
+	float:right;
+	left: auto;
+}
+
+.breadcrumb {
+	float:right;
+	padding:5px 30px 5px 10px;
+}
+
+/*--------------------------------------------------------------
+8.0 - Blog Styles
+--------------------------------------------------------------*/
+
+.blog-entry {
+	float:right;
+}
+
+.blog-entry {
+	float:right;
+}
+
+.entry-metadata {
+	float:right;
+}
+
+.blog-entry .entry-metadata p {
+	float:right;
+	border-left:1px solid;
+	padding:0px 5px 0px 10px;
+	border-right: none;
+}
+
+.blog-entry .entry-metadata p:first-child {
+	padding-right:0px;
+	padding-left: 0;
+}
+
+.blog-entry .entry-metadata p:last-child {
+	padding-left:0px;
+	padding-right: 0;
+}
+
+.blog-entry-inner {
+	float:right;
+}
+
+.blog-entry {
+	padding-right:0px;
+	padding-left: 0;
+}
+
+.entry-details {
+	float:right;
+}
+
+.entry-details .entry-body {
+	float:right;
+}
+
+.entry-footer {
+	float:right;
+}
+
+.entry-footer .read-more {
+	float:left;
+}
+
+.dt-sc-blog-full-width-content {
+	float:right;
+}
+
+.dt-sc-blog-full-width-content .entry-thumb {
+	margin:0px 0px 0px 20px;
+	float:right;
+}
+
+.dt-sc-blog-full-width-content .entry-details {
+	float:right;
+}
+
+.blog-entry {
+	float:right;
+}
+
+.blog-single-entry .blog-entry .bx-controls-direction .bx-prev, .event-single .bx-controls-direction .bx-prev {
+	right:12px;
+	background-position:right top;
+	left: auto;
+}
+
+.blog-single-entry .blog-entry .bx-controls-direction .bx-next, .event-single .bx-controls-direction .bx-next {
+	left:12px;
+	background-position:left top;
+	right: auto;
+}
+
+.blog-single-entry .blog-entry .entry-details {
+	float:right;
+}
+
+.post-edit-link {
+	float:right;
+}
+
+/*--------------------------------------------------------------
+9.0 - About Styles
+--------------------------------------------------------------*/
+
+.about {
+	float:right;
+}
+
+.about-author {
+	float:right;
+}
+
+.about-author .author-details {
+	float:right;
+}
+
+.about-author .author-thumb {
+	float:right;
+	margin:0px 0px 0px 20px;
+}
+
+.about-author .author-description {
+	float:right;
+}
+
+.commententries {
+	float:right;
+}
+
+#respond {
+	float:right;
+}
+
+ul.commentlist {
+	float:right;
+}
+
+ul.commentlist li {
+	padding:0px 100px 0px 0px;
+}
+
+ul.commentlist li ul.children {
+	float:right;
+}
+
+ul.commentlist li .respond {
+	margin-right:69px;
+	margin-left: auto;
+}
+
+ul.commentlist li .comment-author {
+	right:0px;
+	left: auto;
+}
+
+ul.commentlist li.bypostauthor .author-name {
+	float:right;
+}
+
+ul.commentlist li .comment-author img {
+	float:right;
+}
+
+ul.commentlist li .reply {
+	float:left;
+	text-align:left;
+}
+
+ul.commentlist li ul.children {
+	float:right;
+}
+
+#commentform .form-submit {
+	float:left;
+}
+
+/*--------------------------------------------------------------
+10.0 - Pagination Styles
+--------------------------------------------------------------*/
+ 
+.pagination-wrapper {
+	float:right;
+}
+
+.pagination-wrapper .pagination .prev-post {
+	float:right;
+}
+
+.pagination-wrapper .pagination .next-post {
+	float:right;
+}
+
+.pagination-wrapper .pagination .prev-post a, .pagination-wrapper .pagination .next-post a {
+	float:right;
+}
+
+.pagination-wrapper .pagination ul {
+	float:right;
+}
+
+.pagination-wrapper .pagination ul li a {
+	float:right;
+}
+
+.pagination-wrapper .pagination ul li {
+	float:right;
+}
+
+/*--------------------------------------------------------------
+11.0 - Sidebar Styles
+--------------------------------------------------------------*/
+
+.widget h3.widgettitle {
+	float:right;
+}
+
+.widget_categories ul li a span {
+	left:0px;
+	right: auto;
+}
+
+.widget_categories ul li a span:before {
+	right:0px;
+	left: auto;
+}
+
+.widget_categories ul li a span:after {
+	left:0px;
+	right: auto;
+}
+
+.upcoming-program-widget p {
+	float:right;
+}
+
+.upcoming-program-widget .program-footer {
+	float:right;
+}
+
+/*--------------------------------------------------------------
+12.0 - Gallery Styles
+--------------------------------------------------------------*/	
+	
+.gallery-container {
+	float:right;
+}
+
+.gallery-container .column {
+	margin-right:0px;
+	margin-left:0px;
+}
+
+.gallery.isotope-item, .gallery.isotope-item.column, .gallery.isotope-item.column.first {
+	margin-right:0px;
+	margin-left:0px;
+}
+
+.gallery .gallery-thumb {
+	float:right;
+}
+
+.gallery.one-third .gallery-thumb > img {
+	float:right;
+}
+
+.gallery-detail {
+	float:right;
+}
+
+.image-overlay {
+	float:right;
+	right:0;
+	left: auto;
+}
+
+.gallery .image-overlay a.link {
+	right:50%;
+	left: auto;
+}
+
+.gallery .image-overlay a.zoom {
+	left:50%;
+	right: auto;
+}
+
+/*.gallery:hover .image-overlay a.link {
+	right:35%;
+	left: auto;
+}
+
+.gallery:hover .image-overlay a.zoom {
+	left:35%;
+	right: auto;
+}
+
+*/
+
+.gallery .image-overlay p {
+	right:10px;
+	left: auto;
+}
+
+.gallery .image-overlay .views {
+	left:10px;
+	right: auto;
+}
+
+.gallery .gallery-thumb > img, .gallery:hover .gallery-thumb > img {
+	float:right;
+}
+
+.gallery:hover .image-overlay {
+	right:0px;
+	left:0px;
+}
+
+.gallery-detail .views {
+	float:left;
+}
+
+.gallery-title {
+	float:right;
+	padding:0px 2px 0px 10px;
+}
+
+.gallery-single-entry {
+	float:right;
+}
+
+.gallery-single-entry .tags span {
+	margin-left:5px;
+	margin-right: auto;
+}
+
+.gallery-single-entry .button span {
+	margin:0px 0px 0px 5px;
+}
+
+.sorting-container {
+	float:right;
+}
+
+.sorting-container a {
+	border-left:1px solid;
+	float:right;
+	border-right: none;
+}
+
+.sorting-container a:last-child {
+	border-left:none;
+	border-right: none;
+}
+
+.sorting-container a:first-child {
+	padding-right:0px;
+	padding-left:8px;
+}
+
+.gallery-container {
+	float:right;
+}
+
+/*.gallery-container .gallery.dt-sc-one-third*/
+
+*/
+
+.gallery-detail h5 {
+	text-align:right;
+}
+
+.gallery-single {
+	float:right;
+}
+
+.bx-controls.bx-has-controls-direction {
+	float:right;
+}
+
+.bx-prev {
+	float:right;
+	padding:13px 52px 9px 23px;
+}
+
+.bx-prev:before {
+	right:22px;
+	float:right;
+	left: auto;
+}
+
+.bx-next {
+	float:left;
+	padding:13px 27px 9px 48px;
+}
+
+.bx-next:before {
+	right:auto;
+	float:left;
+	left:18px;
+}
+
+.gallery-single {
+	float:right;
+}
+
+.gallery-single .left-gallery.dt-sc-two-third {
+	margin-right:2%;
+	float:left;
+	margin-left:0px;
+}
+
+.gallery-single .dt-sc-two-third{margin-right:2% !important; margin-left:auto !important; float:left;}
+
+.gallery-single .right-gallery.dt-sc-two-third{margin-left:2% !important; float:right; margin-right:0px !important;}
+
+.gallery-single .dt-sc-one-third.last {
+	margin-right:0px;
+	margin-left: auto;
+}
+
+.project-details {
+	float:right;
+}
+
+.project-details p {
+	float:right;
+}
+
+/*--------------------------------------------------------------
+13.0 - Contact, Event, Donate Page Styles
+--------------------------------------------------------------*/
+
+footer .dt-sc-contact-info span {
+	float:right;
+	margin-left:3px;
+	margin-right: auto;
+}
+
+footer .dt-sc-contact-info.address .icon {
+	padding:0 0 10px 20px;
+}
+
+footer .dt-sc-contact-info .icon {
+	padding:0 0 0px 18px;
+}
+
+/**Events Styles**/
+
+.tribe-grid-header {
+	border-right:0px;
+	border-left:0px;
+}
+
+.type-tribe_events {
+	float:right;
+}
+
+/*.tribe-events-list .tribe-events-event-image img*/
+
+.events_list {
+	float:right;
+}
+
+.events_list:after {
+	float:right;
+}
+
+.events_list .event_thumb {
+	float:right;
+	margin:0px 0px 0px 20px;
+}
+
+.events_list .event_content {
+	float:right;
+}
+
+.event_details {
+	float:right;
+	margin-left:20px;
+	margin-right: auto;
+}
+
+.event_description {
+	padding-right:20px;
+	border-right:none;
+	float:right;
+	padding-left: 0;
+	border-left: none;
+}
+
+.event-single {
+	float:right;
+}
+
+.event-single .event-carousel-wrapper img {
+	margin:5px 5px 0px 20px;
+}
+
+.event-single .event-carousel-wrapper li p {
+	padding-right:10px;
+	padding-left: 0;
+}
+
+.donate-form {
+	float:right;
+}
+
+.donate-form label {
+	float:right;
+}
+
+/*--------------------------------------------------------------
+14.0 - Event Carousel Styles
+--------------------------------------------------------------*/
+
+.event-carousel-wrapper {
+	float:right;
+}
+
+.event-carousel-wrapper h4 {
+	float:right; text-align:right;
+}
+
+.event-carousel-wrapper .dt-sc-two-third {
+	padding:0px 20px 0px 0px;
+}
+
+.event-carousel-wrapper .dt-sc-one-third {
+	padding:0px 0px 0px 20px;
+}
+
+.event-carousel-wrapper li img {
+	float:right;
+	margin-left:20px;
+	margin-right: auto;
+}
+
+.event-carousel-wrapper li img {
+	float:right;
+}
+
+.event-carousel-wrapper li .venue {
+	float:right;
+	padding:0px 25px 15px 0px;
+}
+
+.event-carousel-wrapper li .details {
+	float:right;
+	padding:0px 35px 0px 0px;
+}
+
+.event-carousel-wrapper li img {
+	float:right;
+	margin-left:20px;
+	margin-right: auto;
+}
+
+.event-carousel-wrapper .carousel-arrows {
+	left:20px;
+	right: auto;
+}
+
+.event-carousel-wrapper .carousel-arrows a {
+	float:right;
+}
+
+.event-carousel-wrapper .carousel-arrows .event-prev-arrow {
+	margin-left:8px;
+	margin-right: auto;
+}
+
+.isotope .isotope-item {
+	-o-transition-property:         top, right, opacity;
+}
+
+/*--------------------------------------------------------------
+15.0 - Footer Styles
+--------------------------------------------------------------*/
+
+footer {
+	float:right;
+}
+
+footer .widget h3.widgettitle:after{left:auto; right:0px;}
+
+.widget_recent_entries ul li, .event_program ul li {
+	float:right;
+}
+
+.widget_recent_entries ul li img, .event_program ul li img {
+	float:right;
+}
+
+.widget_recent_entries ul li span {
+	float:right;
+}
+
+.widget_recent_entries ul li > a {
+	float:right;
+	margin-left:10px;
+	margin-right: auto;
+}
+
+.event_program ul li > a {
+	float:right;
+	margin-left:15px;
+	margin-right: auto;
+}
+
+.widget_links ul li a:before {
+	margin-left:10px;
+	margin-right: auto;
+}
+
+footer input[type="submit"] {
+	float:left;
+}
+
+.widget.mailchimp form {
+	float:right;
+}
+
+.widget_text ul li span {
+	float:right;
+	margin:0px 0px 0px 2%;
+}
+
+.widget_text ul li p {
+	float:right;
+}
+
+.copyleft {
+	float:right;
+}
+
+.copyleft p {
+	float:right;
+}
+
+#toTop {
+	left:8px;
+	background:url(images/ui.totop.png) no-repeat right bottom;
+	right: auto;
+}
+
+.wrapper .wpcf7-response-output {
+	float:right;
+}
+
+/*--------------------------------------------------------------
+16.0 - Style Picker Styles
+--------------------------------------------------------------*/
+
+
+.dt-style-picker-wrapper {
+	right:0px;
+	left: auto;
+}
+
+#dt-style-picker {
+	float:right;
+}
+
+#dt-style-picker ul {
+	float:right;
+}
+
+#dt-style-picker ul li a.selected span {
+	left:11px;
+	right: auto;
+}
+
+#dt-style-picker .hr {
+	float:right;
+}
+
+.style-picker-ico {
+	right:225px;
+	left: auto;
+}
+
+.style-picker-ico img, .fixed-help-form .fixed-help-form-icon img {
+	right:0px;
+	left:0px;
+}
+
+/*--------------------------------------------------------------
+13.0 - Retina Images
+--------------------------------------------------------------*/
+
+@media only screen and (-moz-min-device-pixel-ratio: 1.5), 
+only screen and (-o-min-device-pixel-ratio: 3/2), 
+only screen and (-webkit-min-device-pixel-ratio: 1.5), 
+only screen and (min-devicepixel-ratio: 1.5), 
+only screen and (min-resolution: 1.5dppx) {
+
+}
+
+/**Desktop resolution styles**/
+
+@media only screen and (min-width:1200px) {
+
+}
+
+@charset "utf-8";
+/* CSS Document */
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+1.0 - column styles
+2.0 - list styles
+3.0 - button styles
+4.0 - social icon styles
+5.0 - Team Styles
+6.0 - testimonial styles
+7.0 - blockquote styles
+8.0 - pullquote styles
+9.0 - tabs styles
+10.0 - toggle styles
+11.0 - pricing table styles
+12.0 - progress bar styles
+13.0 - notification boxes styles
+14.0 - hr styles
+15.0 - title styles
+16.0 - icon boxes styles
+17.0 - dt-sc-program styles
+18.0 - dt-sc-program styles
+19.0 - fancy styles
+20.0 - callout box styles
+21.0 - donut chart styles
+22.0 - tooltip styles
+--------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------
+1.0 - column styles
+--------------------------------------------------------------*/
+
+.column {
+	float:right;
+	margin:0px 2% 0px 0px;
+}
+
+.column.first {
+	margin-right:0px;
+	margin-left: auto;
+}
+
+.dt-sc-one-column {
+	float:right;
+}
+
+.column.no-space {
+	margin-left:0px;
+	margin-right:0px;
+}
+
+/*--------------------------------------------------------------
+2.0 - list styles
+--------------------------------------------------------------*/
+
+ul.dt-sc-fancy-list li {
+	padding-right:20px;
+	padding-left: 0;
+}
+
+ul.dt-sc-fancy-list li ul {
+	padding-right:0px;
+	padding-left: 0;
+}
+
+ul.dt-sc-fancy-list.arrow li {
+	padding-right:15px;
+	padding-left: 0;
+}
+
+ul.dt-sc-fancy-list li:before {
+	right:0px;
+	left: auto;
+}
+
+/*--------------------------------------------------------------
+3.0 - button styles
+--------------------------------------------------------------*/
+
+.dt-sc-button.large i {
+	margin-right:10px;
+	margin-left: auto;
+}
+
+.dt-sc-button.with-icon.small:hover {
+	padding:8px 12px 8px 20px;
+}
+
+.dt-sc-button.with-icon.large:hover {
+	padding:16px 28px 16px 36px;
+}
+
+.dt-sc-button.with-icon.xlarge:hover {
+	padding:18px 25px 18px 45px;
+}
+
+.dt-sc-button.with-icon.medium:hover {
+	padding:14px 18px 14px 26px;
+}
+
+.dt-sc-button.with-icon.large i {
+	right:100%;
+	transition:right 300ms linear 0s;
+	-webkit-transition:right 300ms linear 0s;
+	-moz-transition:right 300ms linear 0s;
+	left: auto;
+}
+
+.dt-sc-button.with-icon.xlarge i {
+	right:100%;
+	transition:right 300ms linear 0s;
+	-webkit-transition:right 300ms linear 0s;
+	-moz-transition:right 300ms linear 0s;
+	left: auto;
+}
+
+.dt-sc-button.with-icon.large:hover i {
+	right:85.5%;
+	left: auto;
+}
+
+.dt-sc-button.with-icon.xlarge:hover i {
+	right:85.5%;
+	left: auto;
+}
+
+.dt-sc-button.with-icon.small i {
+	right:100%;
+	left: auto;
+}
+
+.dt-sc-button.with-icon.small:hover i {
+	right:90%;
+	transition:right 300ms linear 0s;
+	-webkit-transition:right 300ms linear 0s;
+	-moz-transition:right 300ms linear 0s;
+	left: auto;
+}
+
+.dt-sc-button.with-icon.medium i {
+	right:100%;
+	left: auto;
+}
+
+.dt-sc-button.with-icon.medium:hover i {
+	right:88%;
+	transition:right 300ms linear 0s;
+	-webkit-transition:right 300ms linear 0s;
+	-moz-transition:right 300ms linear 0s;
+	left: auto;
+}
+
+/*--------------------------------------------------------------
+4.0 - social icon styles
+--------------------------------------------------------------*/
+
+.dt-sc-social-icons li a {
+	float:right;
+}
+
+.dt-sc-social-icons li a:after {
+	right:-2px;
+	left: auto;
+}
+
+.dt-sc-social-icons li:first-child{margin-right:0px; margin-left:5px;}
+
+.dt-sc-social-icons li:last-child{margin-left:0px; margin-right:5px;}
+
+/*--------------------------------------------------------------
+5.0 - team styles
+--------------------------------------------------------------*/
+
+.no-space.column .dt-sc-team-wrapper {
+	border-right:1px solid;
+	border-left: none;
+}
+
+.dt-sc-team-wrapper .dt-sc-team {
+	float:right;
+}
+
+.dt-sc-no-border.dt-sc-team-wrapper {
+	border-right:none;
+	border-left: none;
+}
+
+.dt-sc-team-wrapper {
+	float:right;
+}
+
+.dt-sc-team-wrapper .dt-sc-social-icons {
+	float:right;
+}
+
+.dt-sc-team-wrapper .dt-sc-social-icons li:first-child {
+	margin-right:0px;
+	margin-left: auto;
+}
+
+/*--------------------------------------------------------------
+6.0 - testimonial styles
+--------------------------------------------------------------*/
+
+.dt-sc-testimonial {
+	float:right;
+	padding:0px 90px 0px 0px;
+}
+
+.dt-sc-testimonial .author {
+	float:right;
+	right:3px;
+	left: auto;
+}
+
+.dt-sc-testimonial blockquote {
+	float:right;
+}
+
+.dt-sc-testimonial p, .testimonial_content span {
+	float:left;
+}
+
+.dt-sc-testimonial blockquote:before {
+	float:right;
+	margin:0px 0px 0px 10px;
+	right:0px;
+	left: auto;
+}
+
+.dt-sc-testimonial .author_details {
+	text-align:left;
+	float:left;
+}
+
+.dt-sc-testimonial .author_details span {
+	float:left;
+}
+
+.dt-sc-testimonial-carousel-wrapper {
+	float:right;
+}
+
+.dt-sc-testimonial-carousel li {
+	float:right;
+}
+
+.dt-sc-testimonial-carousel-wrapper .carousel-arrows {
+	left:0px;
+	right: auto;
+}
+
+.dt-sc-testimonial-carousel-wrapper .carousel-arrows a {
+	float:right;
+}
+
+.dt-sc-testimonial-carousel-wrapper .carousel-arrows .testimonial-prev {
+	margin-left:5px;
+	margin-right: auto;
+}
+
+.dt-sc-testimonial-carousel-wrapper .carousel-arrows .testimonial-prev .fa.fa-angle-right {
+	margin-right:-1px;
+	margin-left: auto;
+}
+
+.dt-sc-testimonial-carousel-wrapper .carousel-arrows .testimonial-next .fa.fa-angle-left {
+	margin-right:1px;
+	margin-left: auto;
+}
+
+/*--------------------------------------------------------------
+7.0 - blockquote styles
+--------------------------------------------------------------*/
+
+blockquote {
+	padding:25px 50px 25px 25px;
+	float:right;
+}
+
+blockquote:before {
+	right:22px;
+	left: auto;
+}
+
+/*--------------------------------------------------------------
+8.0 - pullquote styles
+--------------------------------------------------------------*/
+
+.alignright, img.alignright {
+	float:left;
+	margin-left:auto;
+	margin-right:20px;
+}
+
+.aligncenter {
+	margin-right:auto;
+	margin-left:auto;
+}
+
+.dt-sc-pullquote1, .dt-sc-pullquote2, .dt-sc-pullquote3, .dt-sc-pullquote4, .dt-sc-pullquote5, .dt-sc-pullquote6 {
+	margin-left:25px;
+	margin-right: auto;
+}
+
+.dt-sc-pullquote1.aligncenter, .dt-sc-pullquote2.aligncenter, .dt-sc-pullquote3.aligncenter, .dt-sc-pullquote4.aligncenter, .dt-sc-pullquote5.aligncenter, .dt-sc-pullquote6.aligncenter{margin-left:auto; margin-right:auto;}
+
+.dt-sc-pullquote1 {
+	border-right:3px solid;
+	border-left: none;
+}
+
+/*.dt-sc-pullquote4*/
+
+.dt-sc-pullquote5 {
+	padding:5px 15px 5px 5px;
+}
+
+*/
+
+.alignleft, img.alignleft {
+	float:left;
+	margin-right:20px;
+	margin-left: auto;
+}
+
+/*--------------------------------------------------------------
+9.0 - tabs styles
+--------------------------------------------------------------*/
+
+.dt-sc-tabs-container {
+	float:right;
+}
+
+ul.dt-sc-tabs-frame {
+	float:right;
+}
+
+ul.dt-sc-tabs li {
+	float:right;
+	margin:0px 0px 0px 5px;
+}
+
+ul.dt-sc-tabs li:before {
+	left:0px;
+	right: auto;
+}
+
+ul.dt-sc-tabs-frame li {
+	float:right;
+}
+
+.dt-sc-tabs-frame-content, .dt-sc-tabs-content {
+	float:right;
+}
+
+ul.dt-sc-tabs li {
+	margin-left:8px;
+	margin-right: auto;
+}
+
+ul.dt-sc-tabs-frame li {
+	margin:0px 0px 0px 8px;
+}
+
+ul.dt-sc-tabs li a {
+	padding:0px 0px 0px 12px;
+}
+
+ul.dt-sc-tabs-frame li a {
+	float:right;
+}
+
+/*--------------------------------------------------------------
+10.0 - toggle styles
+--------------------------------------------------------------*/
+
+.dt-sc-toggle-frame-set {
+	float:right;
+}
+
+h5.dt-sc-toggle a, h5.dt-sc-toggle-accordion a {
+	padding:0px 25px 0px 0px;
+}
+
+h5.dt-sc-toggle:before, .dt-sc-toggle-frame h5.dt-sc-toggle:after, h5.dt-sc-toggle-accordion:before, .dt-sc-toggle-frame h5.dt-sc-toggle-accordion:after {
+	right:0px;
+	left: auto;
+}
+
+.dt-sc-toggle-frame h5.dt-sc-toggle:after, .dt-sc-toggle-frame h5.dt-sc-toggle-accordion:after {
+	left:15px;
+	right:auto;
+}
+
+.dt-sc-toggle-frame h5.dt-sc-toggle:before, .dt-sc-toggle-frame h5.dt-sc-toggle-accordion:before, .dt-sc-toggle-frame h5.dt-sc-toggle-accordion.active:after {
+	left:15px;
+	right: auto;
+}
+
+/*--------------------------------------------------------------
+11.0 - pricing table styles
+--------------------------------------------------------------*/	
+	
+.pricing-table {
+	float:right;
+}
+
+.dt-sc-tb-header .dt-sc-price span {
+	float:right;
+}
+
+.dt-sc-guarantee {
+	float:right;
+}
+
+.dt-sc-tb-header .dt-sc-price {
+	float:right;
+}
+
+.dt-sc-tb-content li {
+	float:right;
+}
+
+.dt-sc-pricing-table.no-space .column {
+	margin-left:0px;
+	margin-right: auto;
+}
+
+.dt-sc-pr-tb-col:hover:after, .dt-sc-pr-tb-col.selected:after {
+	right:-1px;
+	left: auto;
+}
+
+/*--------------------------------------------------------------
+12.0 - progress bar styles
+--------------------------------------------------------------*/
+
+.dt-sc-progress .dt-sc-bar-text {
+	right:0px;
+	text-align:right;
+	left: auto;
+}
+
+.dt-sc-progress .dt-sc-bar-text > span {
+	float:left;
+}
+
+.dt-sc-progress .dt-sc-bar {
+	float:right;
+}
+
+/*--------------------------------------------------------------
+13.0 - notification boxes styles
+--------------------------------------------------------------*/
+
+.dt-sc-error-box, .dt-sc-warning-box, .dt-sc-success-box, .dt-sc-info-box {
+	padding:15px 42px 12px 15px;
+}
+
+.dt-sc-error-box:before, .dt-sc-warning-box:before, .dt-sc-success-box:before, .dt-sc-info-box:before {
+	right:12px;
+	left: auto;
+}
+
+/**dt-sc-sponsor-carousel**/
+
+.dt-sc-sponsor-carousel-wrapper {
+	float:right;
+}
+
+.dt-sc-sponsor-carousel {
+	float:right;
+}
+
+.dt-sc-sponsor-carousel li img {
+	right:0px;
+	left:0px;
+}
+
+.dt-sc-sponsor-carousel-wrapper .carousel-arrows a {
+	float:right;
+}
+
+.dt-sc-sponsor-carousel-wrapper .sponsor-prev-arrow {
+	margin-left:8px;
+	margin-right: auto;
+}
+
+.dt-sc-sponsor-carousel-wrapper .carousel-arrows {
+	left:0px;
+	right: auto;
+}
+
+/*--------------------------------------------------------------
+14.0 - hr styles
+--------------------------------------------------------------*/
+
+.dt-sc-hr-invisible-very-large {
+	float:right;
+}
+
+.dt-sc-hr-invisible-large {
+	float:right;
+}
+
+.dt-sc-hr-invisible {
+	float:right;
+}
+
+.dt-sc-hr-invisible-medium {
+	float:right;
+}
+
+.dt-sc-hr-invisible-small {
+	float:right;
+}
+
+.dt-sc-hr-invisible-very-small {
+	float:right;
+}
+
+.dt-sc-hr-border {
+	float:right;
+}
+
+.dt-sc-hr {
+	float:right;
+}
+
+.dt-sc-hr-medium {
+	float:right;
+}
+
+.dt-sc-hr-large {
+	float:right;
+}
+
+.dt-sc-hr.top a {
+	left:0px;
+	padding:0px 10px 0px 0px;
+	right: auto;
+}
+
+/*--------------------------------------------------------------
+15.0 - title styles
+--------------------------------------------------------------*/
+
+.dt-sc-ico-border-title {
+	float:right;
+}
+
+.main .dt-sc-hr-title {
+	float:right;
+}
+
+.dt-sc-solid-hr-title {
+	float:right;
+}
+
+.dt-sc-solid-hr-title:before {
+	right:0px;
+	left: auto;
+}
+
+.dt-sc-title {
+	float:right;
+}
+
+.dt-sc-title span {
+	padding-left:10px;
+	padding-right: 0;
+}
+
+/*--------------------------------------------------------------
+16.0 - icon boxes styles
+--------------------------------------------------------------*/
+
+.dt-sc-ico-content span.fa-custom-icn-design {
+	background:url(../images/service.png) right center no-repeat;
+}
+
+.dt-sc-ico-content span.fa-custom-icn-perfect {
+	background:url(../images/service.png) left center no-repeat;
+}
+
+.dt-sc-full-width-content {
+	float:right;
+}
+
+.dt-sc-ico-content.type2 {
+	padding:0px 140px 0px 0px;
+}
+
+.dt-sc-ico-content.type2 .icon {
+	right:0px;
+	left: auto;
+}
+
+.dt-sc-ico-content.type3 .dt-sc-button {
+	right:0px;
+	left: auto;
+}
+
+/*--------------------------------------------------------------
+17.0 - dt-sc-program styles
+--------------------------------------------------------------*/
+
+.dt-sc-date-container {
+	float:right;
+	margin:0px 0px 0px 12px;
+}
+
+/*--------------------------------------------------------------
+18.0 - dt-sc-program styles
+--------------------------------------------------------------*/
+
+
+.dt-sc-contact-info {
+	float:right;
+}
+
+.dt-sc-contact-info .icon {
+	float:right;
+	padding:0px 0px 10px 20px;
+}
+
+.dt-sc-contact-info.address .icon {
+	padding:0px 0px 50px 20px;
+}
+
+/*--------------------------------------------------------------
+19.0 - fancy styles
+--------------------------------------------------------------*/
+
+.dt-sc-titled-box h4.dt-sc-titled-box-title span {
+	margin-left:5px;
+	margin-right: auto;
+}
+
+/*--------------------------------------------------------------
+20.0 - callout box styles
+--------------------------------------------------------------*/
+
+
+.dt-sc-callout-box {
+	float:right;
+}
+
+.dt-sc-callout-box .dt-sc-button {
+	float:left;
+}
+
+.dt-sc-callout-box .icon {
+	float:right;
+	margin:-5px 0px 0px 20px;
+}
+
+.dt-sc-callout-box.with-icon {
+	padding:25px 2% 25px 3%;
+}
+
+.dt-sc-callout-box.type3 {
+	border-right:1px solid;
+	border-left: none;
+}
+
+/*--------------------------------------------------------------
+21.0 - donut chart styles
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+22.0 - tooltip styles
+--------------------------------------------------------------*/
+
+#tiptip_arrow, #tiptip_arrow_inner{left:0px; right:0px; margin:auto;}
+
+/**Others**/
+
+header .header_top .alignright a{float:right; margin:6px 0px 0px 15px;}
+
+.copyright p{float:right;}
+
+#tribe-events .tribe-events-button, .tribe-events-button{margin-left:10px;}
+
+.blog-entry .entry-metadata p:first-child{padding-left:10px;}
+
+.blog-entry .entry-metadata p:last-child{padding-left:0px; padding-right:5px;}
+
+.sticky .featured-post, .featured-post{float:right; margin:2px 0px 0px 10px;}
+
+.widget_recent_entries ul li .featured-post span.fa{margin:0px 0px 0px 5px;}
+
+.woocommerce .products li.first .column{margin-left:auto; margin-right:auto;}
+
+ul.products li .onsale{border-right:75px solid rgba(0, 0, 0, 0); border-left:0px; left:0px; right:auto;}
+
+ul.products li .onsale span{left:14px; right:auto;}
+
+ul.products .product:hover .featured-tag{right:0; opacity:1;}
+
+ul.products .product .featured-tag{right:-100px;}
+
+ul.products li .out-of-stock{left:10px; right:auto;}
+
+ul.products .product .featured-tag > span:before{border-width:20px 0px 0px 14px; left:-14px; right:auto;}
+
+ul.products .product .featured-tag > span:after{border-width:0px 0px 20px 14px; left:-14px; right:auto;}
+
+ul.products .product .yith-wcwl-add-to-wishlist{left:-39px; right:auto;} 
+
+.product .product-wrapper:hover .yith-wcwl-add-to-wishlist{left:0px; right:auto;}
+
+.woocommerce-tabs ul.tabs li{float:right; margin:0px 0px 0px 8px;}
+
+.woocommerce .woocommerce-product-rating .star-rating, .woocommerce-page .woocommerce-product-rating .star-rating{margin:.5em 0px 0px 4px; float:right;}
+
+.woocommerce #content div.product form.cart div.quantity, .woocommerce div.product form.cart div.quantity, .woocommerce-page #content div.product form.cart div.quantity, .woocommerce-page div.product form.cart div.quantity, .woocommerce #content div.product form.cart .button, .woocommerce div.product form.cart .button, .woocommerce-page #content div.product form.cart .button, .woocommerce-page div.product form.cart .button{float:right;}
+
+.woocommerce #content div.product form.cart div.quantity, .woocommerce div.product form.cart div.quantity, .woocommerce-page #content div.product form.cart div.quantity, .woocommerce-page div.product form.cart div.quantity{margin:2px 0px 0px 10px;}
+
+.secondary-sidebar .widget h3.widgettitle::after{left:auto; right:0px;}
+
+/**Responsive Styles**/
+
+@media only screen and (max-width:767px){
+	
+.column{margin-right:0px; margin-bottom:20px;}	
+
+header .header_top .alignright a{display:inline-block; float:none; margin:15px 0;}
+
+header .header_top .alignright p{float:none; clear:both; display:inline-block; width:100%;}
+
+#main-menu ul.menu > li, #main-menu ul.menu > li > ul.sub-menu > li, #main-menu ul.menu .megamenu-child-container > ul.sub-menu > li{text-align:right;}	
+
+.copyright p{float:none;}	
+
+.dt-sc-blog-full-width-content .entry-thumb{padding-bottom:10px; margin:0px 0px 10px 0px;}
+
+.gallery-single .right-gallery.dt-sc-two-third{margin-left:0% !important;}
+
+.gallery-single .dt-sc-two-third{margin-right:0% !important;}
+
+.dt-sc-callout-box .dt-sc-button{float:none;}
+
+}
+
+
+@media only screen and (min-width:480px) and (max-width:767px){
+	
+.sorting-container a{border-left:none;}	
+
+}	
+
+
+@media only screen and (min-width:320px) and (max-width:479px){
+	
+}
+
+@media only screen and (max-width:319px){
+	
+.blog-entry .entry-metadata p{border-left:none;}
+
+.dt-sc-testimonial .author{left:0px; right:0px; float:none;}	
+
+.dt-sc-testimonial{padding:80px 0px 0px 0px;}	
+
+.dt-sc-ico-content.type2{padding:130px 0px 0px 0px;}
+
+.sorting-container a{border-left:none;}
+
+.bx-next{text-indent:-9999px; padding:13px 19px 9px 41px; font-size:0px;}
+
+.bx-prev{text-indent:-9999px; padding:13px 37px 9px 23px; font-size:0px;}
+	
+}
+
+/* Generated by the RTLer - http://wordpress.org/extend/plugins/rtler/ */

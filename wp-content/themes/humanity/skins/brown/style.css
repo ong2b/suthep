@@ -1,0 +1,285 @@
+@charset "utf-8";
+/* CSS Document */
+
+::selection{background-color:#564338; color:#FFFFFF;}
+
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+PRIMARY COLOR
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/**font color**/
+
+a, #main-menu > ul.menu > li.current_page_item > a, #main-menu > ul > li.current_page_ancestor > a, #main-menu > ul > li.current-menu-item > a, #main-menu > ul > li.current-menu-ancestor > a, #main-menu > ul > li.current_page_item > a:hover, #main-menu > ul > li.current_page_ancestor > a:hover, #main-menu > ul > li.current-menu-item > a:hover, #main-menu > ul > li.current-menu-ancestor > a:hover, #main-menu > ul > li > a:hover, #main-menu > ul.menu > li:hover > a, #main-menu ul li a:hover, #main-menu ul.menu > li.current_page_item > a, #main-menu ul.menu > li.current_page_ancestor > a, #main-menu ul.menu > li.current-menu-item > a, #main-menu ul.menu > li.current-menu-ancestor > a, #main-menu > ul.menu > li > a:hover, .widget ul li a:hover, .dt-sc-hr.top a:hover, .event-carousel-wrapper h4, .event-carousel-wrapper h4 a, footer .widget h3.widgettitle, .dt-widget_recent_entries ul li:hover a, .widget_recent_entries ul li:hover a, .event_program ul li:hover a, footer .widget ul li a:hover, footer a:hover, footer .dt-sc-contact-info a:hover, .woocommerce-page table.cart td a:hover, .shipping-calculator-button:hover, .breadcrumb a:hover, footer .widget h3.widgettitle a, .summary .product_meta a:hover, footer .widget ul li a:hover:before, footer .widget.widget_nav_menu .menu li a:hover, footer .widget.widget_categories ul li a:hover, .simple_link:hover, .copyright a:hover, .blog-entry .entry-metadata a:hover, .blog-entry h2 a:hover, .dt-sc-ico-content:hover h4 a, .about-author .author-description h5 a:hover, ul.commentlist li .author-name a:hover, ul.commentlist li .reply a:hover, .project-details p a:hover, .dt-sc-contact-info a:hover, .gallery:hover h5 a, h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover, .tribe-events-event-meta .tribe-events-gmap:hover, .tribe-events-venue-details a:hover, .tribe-events-back a:hover{color:#d9b151;}
+
+body, h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, .menu ul li ul li a, a:hover, #main-menu ul li.menu-item-simple-parent ul li a:hover, #main-menu ul li.menu-item-simple-parent ul li:hover a, .widget_categories ul li a, .tagcloud a, .pagination-wrapper .pagination ul li a, .pagination-wrapper .pagination .next-post a, .about-author .author-description h5 a, ul.commentlist li .author-name a, ul.commentlist li .reply a, .sorting-container a.active-sort, .sorting-container a:hover, .project-details p a, .bx-prev a, .bx-next a, .dt-sc-contact-info a, header .header_top .alignright a:hover, .post-edit-link:hover, #main-menu ul > li > ul li.menu-item-has-children > a:after, .blog-entry .entry-metadata p span, th, td, blockquote.green, blockquote.sandal, blockquote.cream, ul.dt-sc-tabs li, ul.dt-sc-tabs-frame li a.current, ul.dt-sc-tabs li a.current, ul.dt-sc-fancy-list li, .dt-sc-tabs-frame-content h5, h5.dt-sc-toggle a, .dt-sc-tabs-frame-content p, .dt-sc-button.sandal, .dt-sc-button.sandal.with-icon i, .dt-sc-button.cream, .dt-sc-button.cream.with-icon i, .dt-sc-toggle-frame-set h5.dt-sc-toggle-accordion.active a, .dt-sc-toggle-frame-set h5.dt-sc-toggle-accordion.active:before, .dt-sc-toggle-frame h5.dt-sc-toggle-accordion a, .dt-sc-toggle-frame h5.dt-sc-toggle-accordion:before, .dt-sc-toggle-frame-set h5.dt-sc-toggle.active a, .dt-sc-toggle-frame-set h5.dt-sc-toggle.active:before, .tribe-events-calendar thead th, .tribe-events-calendar div[id*=tribe-events-daynum-], #tribe-events .tribe-events-calendar div[id*=tribe-events-daynum-] a, .tribe-grid-header .column span, #tribe-events-content .tribe-events-tooltip h4, #tribe_events_filters_wrapper .tribe_events_slider_val, .single-tribe_events a.tribe-events-gcal, .single-tribe_events a.tribe-events-ical, .tribe-events-day .tribe-events-day-time-slot h5, .widget.tribe_mini_calendar_widget th, .widget.tribe_mini_calendar_widget .tribe-mini-calendar .tribe-events-has-events a, .widget.tribe_mini_calendar_widget .tribe-mini-calendar div[id*="daynum-"] a:hover, .type-tribe_events .tribe-mini-calendar-event .list-date .list-daynumber, .tribe-events-calendar td.tribe-events-past div[id*=tribe-events-daynum-], .tribe-events-calendar td.tribe-events-past div[id*=tribe-events-daynum-]>a, .widget_text ul.dt-sc-tabs li a.current, .page-link a, .page-link a span, .gallery-title p a, .pagination-wrapper .pagination .prev-post a, h5.dt-sc-toggle-accordion a, .aligncenter.welcome-text h1, .blog-entry h2 a, h4 a, .dt-sc-hr.top a, .widget li a, .woocommerce-page table.cart td a, .shipping-calculator-button, .summary .product_meta a, .wp-caption .wp-caption-text, .simple_link, .tribe-events-viewmore a, ul.dt-sc-tabs-frame li a:hover, ul.dt-sc-tabs li a:hover, .woocommerce-tabs ul.tabs li.active a, .blog-entry .entry-metadata a, ul.side-nav li a, ul.side-nav li a:before, ul.side-nav > li > a:hover, ul.side-nav > li > ul > li > a:hover, ul.side-nav > li > ul > li > ul > li > a:hover, ul.side-nav > li > a:hover, ul.side-nav > li > ul > li > a:hover, ul.side-nav > li.current_page_item > a, ul.side-nav li > ul > li.current_page_item > a, .tribe-events-event-meta .tribe-events-gmap, .tribe-events-venue-details a, .tribe-events-back a{color:#533628;}
+
+.widget.widget_rss .rss-date, .widget.widget_rss cite, .dt-sc-callout-box h5{color:#96836a;}
+
+.dt-sc-callout-box.with-icon.type1:hover span, .dt-sc-callout-box.type3:hover .icon span, .dt-sc-callout-box.type4 .dt-sc-button:hover{color:#6d4930;}
+
+.event_program ul li:hover h6 a, footer input[type="text"], footer input[type="email"], footer textarea{color:#A99479;}
+
+label span, .donate-form p span, .dt-sc-contact-info span, .event_details span, .dt-sc-contact-info i{color:#b6aa9b;}
+
+footer .widget_recent_entries ul li a, footer .event_program ul li a, footer .widget_recent_entries ul li, .widget_links ul li a, .widget_links ul li a:before, .entry-footer .read-more, footer .dt-widget_recent_entries ul li a, footer .widget .dt-sc-contact-info p, footer .widget li a{color:#efebe6;}
+
+.widget_categories ul li a span{color:#be3939;}
+
+/*.sorting-container a{color:#b3aa9e;}*/
+
+.event-carousel-wrapper li h5{color:#684d3a;}
+
+.about-author .author-description span, ul.commentlist li .commentmetadata{color:#9d8e7b;}
+
+/*footer .widget_recent_entries ul li span, footer .dt-widget_recent_entries ul li span{color:#c5b9ab;}*/
+
+
+/**background color**/
+
+header, footer{background-color:#28221f;}
+
+#menu-container, .bx-controls.bx-has-controls-direction a.bx-prev, .bx-controls.bx-has-controls-direction a.bx-next{background-color:#533628;}
+
+.dt-sc-team-wrapper.primary-color, .dt-sc-testimonial-carousel-wrapper .carousel-arrows a, .dt-sc-sponsor-carousel-wrapper .carousel-arrows a, .entry-footer .read-more:hover, .megamenu-child-container > ul.sub-menu > li > a, .megamenu-child-container > ul.sub-menu > li > .nolink-menu, #wp-calendar caption, .widget.tribe_mini_calendar_widget .tribe-mini-calendar td, .widget.tribe_mini_calendar_widget .tribe-mini-calendar-nav td, .widget.tribe_mini_calendar_widget .tribe-mini-calendar-nav td, blockquote{background-color:#74543d;}
+
+.add_to_cart_button, a.add_to_wishlist, .product-thumb .yith-wcwl-wishlistexistsbrowse.show a, .product-thumb .yith-wcwl-wishlistaddedbrowse.show a, .products .product-thumb a.button, #secondary .widget.widget_search input[type="submit"], #tribe-events .tribe-events-button, #tribe-events .tribe-events-button:hover, #tribe_events_filters_wrapper input[type=submit], .tribe-events-button, .tribe-events-button.tribe-active:hover, .tribe-events-button.tribe-inactive, .tribe-events-button:hover, .tribe-events-calendar td.tribe-events-present div[id*=tribe-events-daynum-], .tribe-events-calendar td.tribe-events-present div[id*=tribe-events-daynum-]>a, #tribe-bar-form .tribe-bar-submit input[type=submit], .tribe-events-sub-nav li a, .tribe-events-read-more, .tribe-events-list .tribe-events-event-cost span, .widget.tribe_mini_calendar_widget .tribe-mini-calendar .tribe-events-has-events div[id*='daynum-'] a:before, .dt-sc-date-container .month, .type-tribe_events .tribe-mini-calendar-event .list-date .list-dayname{background-color:#564338;}
+
+.dt-sc-callout-box.with-icon.type2:hover .icon, .dt-sc-callout-box.type3 .icon, .dt-sc-boxed-tooltip, blockquote, .dt-sc-titled-box h4.dt-sc-titled-box-title, .dt-sc-callout-box.type4, .dt-sc-callout-box.type1 .icon, .dt-sc-button{background-color:#6d4930;}
+
+.dt-sc-button:hover{background-color:#60402a;}
+
+.dt-sc-sponsor-carousel-wrapper .carousel-arrows a:hover, .dt-sc-testimonial-carousel-wrapper .carousel-arrows a:hover{background-color:#573e2c;}
+
+.dt-sc-pr-tb-col{background-color:#D5CBBF;}
+
+th, .about-author .author-details, .pagination-wrapper, .dt-sc-toggle-frame h5.dt-sc-toggle.active, .dt-sc-toggle-frame h5.dt-sc-toggle-accordion.active, .tribe-events-calendar thead th, .tribe-events-calendar td.tribe-events-past div[id*=tribe-events-daynum-], .tribe-events-calendar td.tribe-events-past div[id*=tribe-events-daynum-]>a, .tribe-events-calendar div[id*=tribe-events-daynum-], .tribe-events-calendar div[id*=tribe-events-daynum-] a, .tribe-bar-views-inner, #tribe-bar-views .tribe-bar-views-list .tribe-bar-views-option a, #tribe-bar-form, #tribe-bar-collapse-toggle, .tribe-grid-header, .widget.tribe_mini_calendar_widget th, ul.dt-sc-tabs-frame li a, .dt-sc-toggle-frame-set .dt-sc-toggle-frame h5.dt-sc-toggle-accordion.active a, .dt-sc-toggle-frame-set .dt-sc-toggle-frame h5.active a, .dt-sc-toggle-frame-set h5.dt-sc-toggle.active a, .dt-sc-progress, .page-link, .woocommerce-tabs ul.tabs li a{background-color:#d7cbbb;}
+
+tbody tr:nth-child(2n+1) td, tbody tr:nth-child(2n+1) th{background:#ede7d6;}
+
+tbody td, tbody th, span.select-sort:after, select, select option, .donate-form select, .secondary-sidebar .widget .search_form input[type="text"], header .header_top .alignright a:hover, .post-edit-link:hover, .widget.tribe_mini_calendar_widget .tribe-mini-calendar td.tribe-events-has-events, .selection-box:after, input[type="text"], input[type="password"], input[type="email"], input[type="url"], input[type="tel"], input[type="number"], input[type="range"], input[type="date"], textarea, input.text, input[type="search"], .dt-sc-date-container, .dt-sc-titled-box-content, .dt-sc-callout-box.type2, .dt-sc-callout-box.type3, .dt-sc-callout-box.type5, .tribe-mini-calendar-event .list-date .list-daynumber, .sticky .featured-post, .featured-post, #tribe-events #tribe-bar-views .tribe-bar-views-list .tribe-bar-views-option a:hover, #tribe-bar-views .tribe-bar-views-list .tribe-bar-views-option.tribe-bar-active a, #tribe-bar-form .tribe-bar-filters-inner{background-color:#faf4e1;}
+
+.mean-container .mean-nav, .ls-v5 .ls-nav-prev, .ls-v5 .ls-nav-next{background-color:#745743;}
+
+.event_program, .dt-sc-pullquote1, .dt-sc-pullquote2, .dt-sc-pullquote3, .dt-sc-pullquote6{background-color:#D4C6B4;}
+
+.event-carousel-wrapper h4{background-color:#4c3c34;}
+
+footer{background-color:#281f19;}
+
+.tribe-grid-allday .type-tribe_events>div, .tribe-grid-allday .type-tribe_events>div:hover, .tribe-grid-body .type-tribe_events .tribe-events-week-hourly-single, .tribe-grid-body .type-tribe_events .tribe-events-week-hourly-single:hover{background-color:rgba(215,203,187,0.8);}
+
+.tribe-grid-allday .type-tribe_events>div, .tribe-grid-allday .type-tribe_events>div:hover, .tribe-grid-body .type-tribe_events .tribe-events-week-hourly-single, .tribe-grid-body .type-tribe_events .tribe-events-week-hourly-single:hover{border-color:rgba(215,203,187,0.9);}
+
+/**border color**/
+
+ul.products li .onsale, .tribe-events-list .tribe-events-event-cost span, .woocommerce #content div.product div.images img, .woocommerce div.product div.images img, .woocommerce-page #content div.product div.images img, .woocommerce-page div.product div.images img, ul.dt-sc-tabs li a.current, .dt-sc-tabs-content, #portfolio-thumb a.active:before{border-color:#564338;}
+
+.dt-sc-testimonial-carousel-wrapper .carousel-arrows a, .dt-sc-sponsor-carousel-wrapper .carousel-arrows a, #slider .ls-v5 .ls-nav-prev, #slider .ls-v5 .ls-nav-next{border-color:#543c2b;}
+
+table, .dt-sc-pr-tb-col, .tribe-events-calendar thead th, #tribe-events-content table.tribe-events-calendar, #tribe-events-content .tribe-events-calendar td, .tribe-events-grid .tribe-grid-header .tribe-grid-content-wrap .column, .tribe-events-grid, .widget.tribe_mini_calendar_widget th, .widget.tribe_mini_calendar_widget .tribe-mini-calendar td, .widget.tribe_mini_calendar_widget .tribe-mini-calendar-nav td, .widget.tribe_mini_calendar_widget .tribe-mini-calendar-nav td, .dt-sc-tabs-frame-content, .dt-sc-callout-box.type1, ul.dt-sc-tabs-frame li a.current, ul.dt-sc-tabs-frame li a, .product-thumb-wrapper .woocommerce-tabs .panel, .main .dt-sc-pullquote1, .woocommerce-tabs ul.tabs li a, .woocommerce-tabs ul.tabs li.active a, ul.side-nav, ul.side-nav li, ul.side-nav li ul{border-color:#B6A99E;}
+
+.dt-sc-pullquote3{border-top-color:#B6A99E;}
+
+.dt-sc-pullquote3, .dt-sc-tb-title, .dt-sc-guarantee, .dt-sc-price, .dt-sc-tb-content li, .dt-sc-ico-content.type3 h4{border-bottom-color:#B6A99E;}
+
+table, th, td, .woocommerce table.wishlist_table thead th, .woocommerce table.wishlist_table tbody td{border-bottom-color:#B6A99E;}
+
+.dt-sc-button{border-color:#5D3E29;}
+
+th, td, .wrapper .woocommerce .shop_table.cart th, .woocommerce table.wishlist_table thead th, .woocommerce table.wishlist_table tbody td, .woocommerce table.wishlist_table thead th, .woocommerce table.wishlist_table tbody td, .woocommerce table.wishlist_table thead th, .woocommerce.woocommerce-wishlist .shop_table.cart th{border-right-color:#B6A99E;}
+
+.hr, .hr-border, .dt-sc-hr-border{border-color:#a89d83;}
+
+.dt-sc-hr, .dt-sc-hr-medium, .dt-sc-hr-large{border-top-color:#a89d83;}
+
+.project-details p, .event-carousel-wrapper li .venue, .dt-sc-contact-info a{border-bottom-color:#a89d83;}
+
+select, .widget ul.tweet_list li .tweet-thumb, .selection-box:after{border-color:#e2d6c1;}
+
+.dt-sc-callout-box.type1 .icon, .dt-sc-callout-box.type5 .icon, .dt-sc-callout-box.with-icon.type2:hover .icon, .dt-sc-callout-box.type3 .icon, .dt-sc-callout-box.with-icon.type2 .icon, .dt-sc-callout-box.type3:hover .icon{border-color:#6d4930;}
+
+.selection-box:before{border-top-color:#e2d6c1;}
+
+header .search_form, header .search_form, header .search_form input[type="text"], header .search_form input[type="submit"]{border-color:#918473;}
+
+.dt-widget_recent_entries ul li img, .widget_recent_entries ul li img, .event_program ul li img{border-color:#AE9484;}
+
+.widget.widget_text .textwidget ul li{border-bottom-color:#e4d5bc;}
+
+.about-author .author-details, .pagination-wrapper, .page-link{border-bottom-color:#efebe6;}
+
+.pagination-wrapper .pagination{border-bottom-color:#e3dbd1;}
+
+.widget_links ul li{border-bottom-color:#684d3a;}
+
+.blog-entry .entry-metadata p{border-right-color:#b6aa9b;}
+
+.sorting-container a{border-right-color:#b3aa9e;}
+
+.event-carousel-wrapper .dt-sc-event-date{border-color:#96836a;}
+
+/**box shadow**/
+
+.dt-sc-testimonial .author img, .event-carousel-wrapper li img{box-shadow:0px 0px 0px 3px #7b5b44; -moz-box-shadow:0px 0px 0px 3px #7b5b44; -webkit-box-shadow:0px 0px 0px 3px #7b5b44;}
+
+.dt-sc-team-wrapper.brown:hover .dt-sc-team img{box-shadow:0px 0px 0px 5px #53321e; -moz-box-shadow:0px 0px 0px 5px #53321e; -webkit-box-shadow:0px 0px 0px 5px #53321e;}
+
+.pagination-wrapper .pagination, .page-link a, .page-link > span{box-shadow:0px 1px 0px 0px #e3dbd1; -webkit-box-shadow:0px 1px 0px 0px #e3dbd1; -moz-box-shadow:0px 1px 0px 0px #e3dbd1;}
+
+.dt-sc-pullquote2{box-shadow:0px 0px 5px #97836a; -moz-box-shadow:0px 0px 5px #97836a; -webkit-box-shadow:0px 0px 5px #97836a;}
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+SECONDARY COLOR
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/**font color**/
+
+.gallery-detail h5 a, .gallery:hover .gallery-detail .views, .gallery:hover .gallery-detail .views a, .gallery .image-overlay > a{color:#748fa2;}
+
+/**text shadow**/
+
+.dt-sc-callout-box.type1 .dt-sc-button, .dt-sc-callout-box.type5 .dt-sc-button, .dt-sc-callout-box.type2 .dt-sc-button, button[type=submit], .woocommerce .checkout-button.button{background-color:#A0CE4E;}
+
+.breadcrumb a, .breadcrumb span{text-shadow:2px 0px 1px #5a4e3e;}
+
+/**background color**/
+
+.dt-sc-ico-content .icon, .dt-sc-team-wrapper.secondary-color, .dt-sc-ico-content.type3 .dt-sc-button, .border-title span, .demo-btn a.demo, .demo-btn a.purchase:hover, .dt-sc-pr-tb-col:hover, .dt-sc-pr-tb-col.selected, .gallery:hover .gallery-detail, .gallery-detail .views, ul.side-nav > li.current_page_item > a:before, ul.side-nav li a:hover:before, ul.side-nav > li.current_page_item > a:before, ul.side-nav > li > ul > li.current_page_item > a:before, ul.side-nav > li > ul > li > ul > li.current_page_item > a:before{background-color:#748fa2;}
+
+input[type=submit]:hover, .dt-sc-callout-box.type1 .dt-sc-button:hover, .dt-sc-callout-box.type5 .dt-sc-button:hover, .dt-sc-callout-box.type2 .dt-sc-button:hover{background-color:#7cb020;}
+
+.image-overlay{background:rgba(120, 147, 166, 0.8);}
+
+/**border color**/
+
+.dt-sc-pr-tb-col:hover:after, .dt-sc-pr-tb-col.selected:after{border:5px solid #688396;}
+
+.dt-sc-pr-tb-col:hover .dt-sc-tb-title, .dt-sc-pr-tb-col:hover .dt-sc-guarantee, .dt-sc-pr-tb-col:hover .dt-sc-price, .active .dt-sc-tb-title, .active .dt-sc-guarantee, .active .dt-sc-price{border-bottom-color:#D3DAE5;}
+
+/**box shadow**/
+
+.dt-sc-team-wrapper.ash:hover .dt-sc-team img{box-shadow:0px 0px 0px 5px #305066; -moz-box-shadow:0px 0px 0px 5px #305066; -webkit-box-shadow:0px 0px 0px 5px #305066;}
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+OTHER COLORS
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/**font color**/
+
+.pagination-wrapper .pagination, .pagination-wrapper .pagination .active-page, .pagination-wrapper .pagination ul li a:hover, .pagination-wrapper .pagination ul li a:hover, .pagination-wrapper .pagination .prev-post a:hover, .pagination-wrapper .pagination .next-post a:hover, .page-link span, .page-link a:hover, .page-link a:hover span, select, .woocommerce .woocommerce-ordering select, .woocommerce-page .woocommerce-ordering select, input[type="text"], input[type="password"], input[type="email"], input[type="url"], input[type="tel"], input[type="number"], input[type="range"], input[type="date"], textarea, input.text, input[type="search"]{color:#b19f86;}
+
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder{color:#b19f86; opacity:1;}
+
+input:-moz-placeholder, textarea:-moz-placeholder{color:#b19f86; opacity:1;}
+
+input::-moz-placeholder, textarea::-moz-placeholder{color:#b19f86; opacity:1;}
+
+input:-ms-input-placeholder, textarea:-ms-input-placeholder{color:#b19f86; opacity:1;}
+
+
+
+#main-menu > ul > li > a, .ls-v5 .ls-nav-prev, .ls-v5 .ls-nav-next, header .header_top .alignright p{color:#f2eac0;}
+
+ul.dt-sc-tabs-frame li a, ul.dt-sc-tabs li a, .woocommerce-tabs ul.tabs li a{color:#a2998e;}
+
+/**background color**/
+
+input[type="submit"], button, input[type="button"], button[type=submit]{background-color:#A0CE4E;}
+
+#main-menu > ul.menu > li:after{background-color:#321f15;}
+
+header .header_top .alignright a, .breadcrumb, .dt-menu-toggle, .post-edit-link{background-color:#96836a;}
+
+.pagination-wrapper .pagination, .page-link a, .page-link > span{background-color:#f4ece3;}
+
+/**border color**/
+
+.tribe-events-viewmore, .events-list #tribe-events-footer, .single-tribe_events #tribe-events-footer, .tribe-events-day #tribe-events-footer, .tribe-events-map #tribe-events-footer, .tribe-events-photo #tribe-events-footer{border-top-color:#c2b4a9;}
+
+.no-space.column .dt-sc-team-wrapper{border-left-color:#c2b4a9;}
+
+.dt-sc-team-wrapper{border-bottom-color:#C8C3BC;}
+
+#main-menu > ul.menu > li:after{border-color:#644b3d;}
+
+.widget.widget_tag_cloud a:hover, #main-menu ul li.menu-item-simple-parent ul, .megamenu-child-container{background-color:#e3c296;}
+
+#main-menu ul li.menu-item-simple-parent > ul > li:hover > a, #main-menu ul li.menu-item-simple-parent > ul > li ul li:hover a, #main-menu ul li.menu-item-simple-parent ul > li.current_page_item > a, #main-menu ul li.menu-item-simple-parent ul li.current_page_ancestor > a, #main-menu ul li.menu-item-simple-parent ul li.current-menu-ancestor > a, #main-menu ul li.menu-item-simple-parent ul li.current_page_item > a, #main-menu ul li.menu-item-simple-parent ul li.current-menu-item > a{background-color:#f8e3c6;}
+
+#main-menu ul li.menu-item-simple-parent ul, .megamenu-child-container{border-color:#b49770;}
+
+.megamenu-child-container ul.sub-menu > li > ul li a, #main-menu ul li.menu-item-simple-parent ul li a{border-bottom-color:#b49770;}
+
+.pagination-wrapper .pagination, .pagination-wrapper .pagination ul li a, .pagination-wrapper .pagination ul li:last-child a, .page-link a, .page-link > span{border-color:#ada397;}
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+BACKGROUND IMAGE
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+#menu-container:after{background:url("images/menu_strip.png") no-repeat;}
+
+.breadcrumb:before{background:url(images/breadcrumb_top.png) 0px top repeat-x;}
+
+.breadcrumb:after{background:url(images/breadcrumb_bottom.png) 0px bottom repeat-x;}
+
+.breadcrumb-section:before{background:url(images/breadcrumb_side.png) left top repeat-y;}
+
+.breadcrumb-section:after{background:url(images/breadcrumb_side.png) right top repeat-y;}
+
+footer:before{background-image:url(images/footer_top_strip.png);}
+
+/**Others**/
+
+.widget .tagcloud a{background-color:#c5b7a8;}
+
+.bx-prev a, .bx-next a{background-color:#D7CBBF;}
+
+.events_list:after{background-color:#D2C7B8;}
+
+.solid-hr-title:before{background:#c2b6a4;}
+
+.dt-sc-toggle-frame h5.dt-sc-toggle, .dt-sc-toggle-frame h5.dt-sc-toggle-accordion, .dt-sc-tabs-frame-content, .dt-sc-toggle-frame-set .dt-sc-toggle-frame h5.dt-sc-toggle-accordion a, .dt-sc-toggle-frame-set .dt-sc-toggle-frame h5.dt-sc-toggle a, .dt-sc-toggle-frame-set .dt-sc-toggle-frame h5.dt-sc-toggle a, .dt-sc-ico-content.type3, ul.dt-sc-tabs-frame li a.current, .woocommerce-tabs .panel, .woocommerce-tabs ul.tabs li.active a, ul.side-nav li a:before, ul.side-nav > li > a:hover, ul.side-nav > li > ul > li > a:hover, ul.side-nav > li > ul > li > ul > li > a:hover, ul.side-nav > li.current_page_item > a, ul.side-nav > li > ul > li.current_page_item > a, ul.side-nav > li > ul > li > ul > li.current_page_item > a{background-color:#EDE7D6;}
+
+.woocommerce-tabs ul.tabs li.active a{border-bottom-color:#EDE7D6;}
+
+.dt-sc-toggle-frame h5.dt-sc-toggle, .dt-sc-toggle-frame h5.dt-sc-toggle-accordion, .dt-sc-toggle-frame-set .dt-sc-toggle-frame h5.dt-sc-toggle-accordion a, .dt-sc-toggle-frame-set .dt-sc-toggle-frame h5.dt-sc-toggle a, .dt-sc-toggle-frame-set .dt-sc-toggle-frame h5.dt-sc-toggle a{border-color:#D7CBBB;}
+
+.dt-sc-toggle-frame h5.dt-sc-toggle.active, .dt-sc-toggle-frame h5.dt-sc-toggle-accordion.active, .dt-sc-toggle-frame-set .dt-sc-toggle-frame h5.dt-sc-toggle-accordion.active a, .dt-sc-toggle-frame-set .dt-sc-toggle-frame h5.active a, .dt-sc-toggle-frame-set h5.dt-sc-toggle.active a{border-color:#CABEAE;}
+
+.entry-footer, .entry-footer .read-more, .tribe-events-list .tribe-events-event-cost{border-color:#d2c7b8;}
+
+ul.commentlist li{border-bottom-color:#d2c7b8;}
+
+.donate-form .bordered_label{border-bottom-color:#c2b6a4;}
+
+/*--------------------------------------------------------------
+Retina Images
+--------------------------------------------------------------*/
+
+@media only screen and (-moz-min-device-pixel-ratio: 1.5), 
+only screen and (-o-min-device-pixel-ratio: 3/2), 
+only screen and (-webkit-min-device-pixel-ratio: 1.5), 
+only screen and (min-devicepixel-ratio: 1.5), 
+only screen and (min-resolution: 1.5dppx) {
+	
+#menu-container:after{background:url("images/menu_strip@2x.png") repeat-x; background-size:1600px 10px;}
+
+.breadcrumb:before{background:url(images/breadcrumb_top@2x.png) 0px top no-repeat; background-size:1000px 16px;}
+
+.breadcrumb:after{background:url(images/breadcrumb_bottom@2x.png) 0px bottom no-repeat; background-size:1000px 16px;}
+
+.breadcrumb-section:before{background:url(images/breadcrumb_side@2x.png) left top repeat-y; background-size:15px 30px;}
+
+.breadcrumb-section:after{background:url(images/breadcrumb_side@2x.png) right top repeat-y; background-size:15px 30px;}
+
+footer:before{background-image:url(images/footer_top_strip@2x.png); background-size:cover !important;}
+
+}
+
+
+
+
+
+
+

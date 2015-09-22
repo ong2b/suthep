@@ -1,0 +1,12 @@
+= Humanity - NGO & Charity WordPress Theme =
+
+21-07-2015 - First Release! 
+
+1-08-2015 - version 1.1
+* Fixed "DesignThemes Core Shortcode Plugin" install issues /plugins folder.
+
+29-08-2015 - version 1.2
+* WordPress 4.3 Compatible
+
+04-09-2015 - version 1.2.1
+* Fixed Page builder issue
