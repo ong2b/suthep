@@ -186,16 +186,18 @@
 			</div><!-- Gallery Items Container End-->
 			<!-- End loop to show Gallery Items -->
 
-	<?php 	if($post_per_page != '-1'): ?>
-              <!-- **Pagination** -->
-              <div class="pagination-wrapper">
-                <div class="pagination">
-                  <div class="prev-post"><?php previous_posts_link(__('<span class="fa fa-angle-left"></span> Previous','dt_themes'));?></div>
-                  <?php echo dttheme_pagination();?>
-                  <div class="next-post"><?php next_posts_link( __('Next <span class="fa fa-angle-right"></span>','dt_themes') );?></div>
-                </div>
-              </div><!-- **Pagination** -->
-	<?php   endif; ?>
+<?php if($post_per_page != '-1'): ?>
+        <?php if((get_next_posts_link(' ',$the_query->max_num_pages)) || get_previous_posts_link(' ',$the_query->max_num_pages)){ ?>
+                <!-- **Pagination** -->
+                <div class="pagination-wrapper">
+                  <div class="pagination">
+                    <div class="prev-post"><?php previous_posts_link(__('<span class="fa fa-angle-left"></span> Previous','dt_themes'),$the_query->max_num_pages);?></div>
+                    <?php echo dttheme_pagination("", $the_query->max_num_pages, $the_query);?>
+                    <div class="next-post"><?php next_posts_link( __('Next <span class="fa fa-angle-right"></span>','dt_themes'),$the_query->max_num_pages );?></div>
+                  </div>
+                </div><!-- **Pagination** -->
+        <?php } ?>
+		<?php endif; ?>
         
 	</section><!-- ** Primary Section End ** --><?php
 
